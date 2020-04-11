@@ -10,19 +10,16 @@ nav {
     align-items: center;
 }
 
-footer {
-    display: flex;
-    justify-content: space-between;
-}
-
 p {
     padding: 10px;
+    font-family: 'Google Sans', Roboto;
 }
 
 a {
     color: black;
     text-decoration: none;
     padding: 10px;
+    font-family: 'Google Sans', Roboto;
 }
 
 a:hover {
@@ -30,7 +27,7 @@ a:hover {
 }
 
 #user {
-    background-color: blue;
+    background-color: hsl(240, 100%, 30%);
     color: white;
     font-weight: bold;
     border-radius: 50%;
@@ -44,4 +41,36 @@ a:hover {
 
 #language {
     text-align: center;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: hsl(0, 0%, 90%);
+}
+
+#footer-top {
+    border: 1px solid hsl(0, 0%, 70%) ;
+    margin: 0;
+}
+
+#footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+#footer-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer-right {
+    display: flex;
+    justify-content: flex-end;
 }
