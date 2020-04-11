@@ -27,6 +27,7 @@ nav {
 
 a {
     text-decoration: none;
+    white-space: nowrap;
 }
 
 a:hover {
