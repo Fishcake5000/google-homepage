@@ -4,20 +4,25 @@
     margin-right: auto;
 }
 
-nav {
+header {
     position: fixed;
     left: 0;
     top: 0;
     width: 100%;
+}
+
+nav {
     display: flex;
     justify-content: end;
     align-items: center;
+    margin: 12px 28px 0px 0px;
 }
 
 .nav-text {
-    color: black;
-    padding: 10px;
     font-family: 'Google Sans', Roboto;
+    color: hsl(0, 0%, 20%);
+    font-size: 13px;
+    padding: 8px;
 }
 
 a {
@@ -28,12 +33,29 @@ a:hover {
     text-decoration: underline;
 }
 
+#grid {
+    display: grid;
+    grid-template-rows: 4px 4px 4px;
+    grid-template-columns: 4px 4px 4px;
+    gap: 2px;
+    margin-right: 20px;
+    margin-left: 15px;
+}
+
+.grid-square {
+    background-color: hsl(0, 0%, 40%);
+}
+
+#grid:hover .grid-square {
+    background-color: hsl(0, 0%, 0%);
+}
+
 #user {
-    background-color: hsl(240, 100%, 30%);
-    color: white;
-    font-weight: bold;
     border-radius: 50%;
-    padding: 10px;
+}
+
+#user:hover {
+    text-decoration: none;
 }
 
 #search-buttons {
