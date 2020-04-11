@@ -58,12 +58,43 @@ a:hover {
     text-decoration: none;
 }
 
-#search-buttons {
+#searchbar-container {
+    display: inline-block;
+    border: 1px solid hsl(0, 0%, 90%);
+}
+
+#searchbar {
+    background-color: transparent;
+    border: none;
+}
+
+#button-container {
     display: flex;
     justify-content: center;
 }
 
+.search-button {
+    border: 1px solid hsl(0, 0%, 95%);
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 4px;
+    color: hsl(0, 0%, 50%);
+    font-family: 'Google Sans', Roboto;
+    font-size: 14px;
+    margin: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.search-button:hover {
+    border: 1px solid hsl(0, 0%, 70%);
+    color: hsl(0, 0%, 20%);
+}
+
 #language {
+    font-family: 'Google Sans', Roboto;
+    font-size: 13px;
     text-align: center;
 }
 

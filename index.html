@@ -5,6 +5,7 @@
         <title>Google homepage</title>
         <link href="https://fonts.googleapis.com/css?family='Google Sans'" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+        <link href="styles/reset.css" rel="stylesheet" type="text/css">
         <link href="styles/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
@@ -31,10 +32,14 @@
         <main>
             <img id="google-logo" src="images/google-logo.png" alt="Google logo" class="center">
             <form>
-                <input type="text" class="center">
-                <div id="search-buttons">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
+                <div class="center">
+                    <div id="searchbar-container">
+                        <input id="searchbar" type="text">
+                    </div>
+                </div>
+                <div id="button-container">
+                    <input type="submit" class="search-button" value="Google Search">
+                    <input type="submit" class="search-button" value="I'm Feeling Lucky">
                 </div>
             </form>
             <p id="language">Google offered in : <a href="#">Français</a></p>
