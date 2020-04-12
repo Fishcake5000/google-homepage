@@ -114,6 +114,7 @@ a:hover {
     padding-left: 15px;
     padding-top: 8px;
     padding-bottom: 8px;
+    cursor: pointer;
 }
 
 .search-button:hover {
